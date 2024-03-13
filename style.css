@@ -1,0 +1,217 @@
+body {
+    background-color: rgb(25, 25, 25); 
+}
+
+.container {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#map {
+    width: 70%;
+    background-color: black;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.header-image {
+    width: 70%;
+    margin-left:0;
+    opacity: 60%;
+}
+
+header {
+    background-color: rgb(25, 25, 25);
+    
+}
+
+a {
+    color:aquamarine;
+
+}
+
+a:hover {
+    color:aqua;
+}
+
+a:visited {
+    color:gray;
+}
+
+Footer {
+    position: relative;
+    bottom: 10px;
+    padding: 25px;
+    text-align: left;
+}
+.article-header {
+   
+    border-radius: 10px;
+    border-style:inset;
+    border-width: 10px;
+    border-color: black;
+}
+
+h1{
+    color: lightslategray;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    Background-attachment: fixed;
+    position: relative;
+    top: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+
+    text-shadow: 5px 3px 1px black;
+   
+}
+
+h2 {
+    font-size: 30px;
+    color: lightslategray;
+    text-decoration:underline;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: lightslategray;
+    border: 5px;
+    padding: 25px;
+    border-style:dashed;
+    
+}
+
+h4 {
+    color: lightslategray;
+}
+
+p {
+    color: lightslategray;
+
+}
+
+#homebox {
+    height: 500px;
+    width: 250px;
+    color:antiquewhite;
+    background-color: rgb(25, 25, 25);
+    
+    
+    
+    position: fixed;
+    top: 300px;
+
+    border-style:inset;
+    border-width: 10px;
+    border-color: black;
+    padding: 10px;
+    
+}
+
+/**
+.directory{
+    font-size: 25px;
+    position:relative;
+    background-color: lightskyblue;
+    margin: 15px;
+    border-style:ridge;
+    border-color: lightslategray;
+    border-width:5px;
+}
+**/
+button:hover{
+    background-color: rgb(113, 147, 177);
+    box-shadow: 5px 5px 5px black;
+}
+
+.dropdown{
+    display:inline-block;
+}
+
+.dropdown button{
+    background-color: rgb(25, 25, 25);
+    color: lightgoldenrodyellow;
+    padding: 15px 5px;
+    border-style: inset;
+    cursor:pointer;
+    position: fixed;
+    left:0;
+    top: 400px;
+}
+
+.dropdown a{
+    display: block;
+    color: lightslategray;
+    text-decoration:wavy;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: fixed;
+    left:0;
+    top:80px;    
+    color: lightslategray;
+    background-color: hsl(0, 3%, 14%);
+    min-width: 200px;
+    
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color:  rgb(70, 68, 68);
+}
+
+.dropdown a:hover{
+    background-color: rgb(70, 68, 68);
+}
+#main-passage{
+    font-size: 25px;
+    position: relative;
+    bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.intextimage {
+    float:left;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+}
+
+.passage {
+    font-size: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    left: 0px;
+    padding: 20px;
+}
+
+#Tehran {
+    position: relative;
+    float: left;
+    width: 700px;
+    margin-right:auto;
+}
+
+embed {
+    min-height: 700px;
+    min-width: 900px;
+}
