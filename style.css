@@ -187,13 +187,6 @@ button:hover{
     
 }
 
-.intextimage {
-    float:left;
-    position: relative;
-    bottom: 0;
-    padding: 20px;
-}
-
 .passage {
     font-size: 25px;
     position: relative;
